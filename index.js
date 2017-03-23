@@ -1,1 +1,1 @@
-module.exports = function () {}
+module.exports = () => 42

@@ -1,5 +1,6 @@
 const {ok} = require('assert')
+const sut = require('..')
 
-test('fails', () => {
-  ok(true)
+test('passes', () => {
+  ok(sut())
 })
